@@ -16,10 +16,10 @@ class MainActivity : AppCompatActivity() {
         buttonUpload.setOnClickListener {
 
             Toast.makeText(applicationContext, "Uploading...", Toast.LENGTH_SHORT).show()
-            Toast.makeText(applicationContext, "Downloading...", Toast.LENGTH_SHORT).show(
+         
         }
         buttonDownload.setOnClickListener {
-)
+            Toast.makeText(applicationContext, "Downloading...", Toast.LENGTH_SHORT).show()
         }
     }
 }
